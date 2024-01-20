@@ -1,0 +1,8 @@
+ export {default as Container} from './Container'
+ export {default as Poster} from './Poster'
+ export {default as Credits} from './Credits'
+ export {default as Similars} from './Similars'
+ export {default as Season} from './Season'
+ export {default as DetailsSeason} from './DetailsSeason'
+ export {default as Episodes} from './Episodes'
+ export {default as Search} from './Search'

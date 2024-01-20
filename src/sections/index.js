@@ -1,0 +1,7 @@
+export {default as Header} from './Header'
+export {default as Footer} from './Footer'
+export {default as Hero} from './Hero'
+export {default as Serie} from './Serie'
+export {default as Details} from './Details'
+export {default as ResultSearch} from './ResultSearch'
+export {default as ResultSearchGen} from './ResultSearchGen'
