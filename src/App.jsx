@@ -21,14 +21,14 @@ function App() {
       
     <Container>
       <Routes>
-      <Route path='/' element={<Movies/>}/>
-      <Route path='/series' element={<Series/>}/>
-      <Route path='/details' element={<Details/>}/>
-      <Route path='/detailsseason' element={<DetailsSeason/>}/>
-      <Route path='/resultsearch' element={<ResultSearch/>}/>
-      <Route path='/series/resultsearch' element={<ResultSearch/>}/>
-      <Route path='/resultsearchgen' element={<ResultSearchGen/>}/>
-      <Route path='/details/details' element={<Details/>}/>
+      <Route path='/vitereact-movies/' element={<Movies/>}/>
+      <Route path='/vitereact-movies/series' element={<Series/>}/>
+      <Route path='/vitereact-movies/details' element={<Details/>}/>
+      <Route path='/vitereact-movies/detailsseason' element={<DetailsSeason/>}/>
+      <Route path='/vitereact-movies/resultsearch' element={<ResultSearch/>}/>
+      <Route path='/vitereact-movies/series/resultsearch' element={<ResultSearch/>}/>
+      <Route path='/vitereact-movies/resultsearchgen' element={<ResultSearchGen/>}/>
+      <Route path='/vitereact-movies/details/details' element={<Details/>}/>
       
       </Routes>
       </Container>
