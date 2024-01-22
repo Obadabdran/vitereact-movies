@@ -10,7 +10,7 @@ const navigate=useNavigate()
   const handlgensearch=(e)=>{
     console.log(e.target.id)
      setGenid(e.target.id)
-     navigate('resultsearchgen')
+     navigate('/vitereact-movies/resultsearchgen')
   }
  
   
