@@ -27,7 +27,7 @@ const Similars = (props) => {
         //else setType(s.type)
         console.log(id)
         console.log(type)
-       navigate('/details/details')
+       navigate('/vitereact-movies/details/details')
        props.y.current.scrollIntoView({
         behavior:"smooth"
        })

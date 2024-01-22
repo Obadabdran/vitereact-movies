@@ -40,7 +40,7 @@ const handlePageClick = (event) => {
     return (
         <>
         <Search path='serie'/>
-        <div className="flex flex-row flex-wrap place-content-center space-x-6 space-y-4 py-2 mb-4  ">
+        <div className="flex flex-col md:flex-row flex-wrap place-content-center  py-2  ">
         {currentItems?.map((d)=>< >
         <Poster key={d.id} type={type} id={d.id} image={d.poster_path} title={d.name} />
         </>)}

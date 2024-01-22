@@ -6,8 +6,8 @@ import { Link } from 'react-router-dom'
 const Header = () => {
 
     const navigation = [
-        { name: 'Movies', href: '/', current: true },
-        { name: 'Series', href: '/series', current: false },
+        { name: 'Movies', href: '/vitereact-movies/', current: true },
+        { name: 'Series', href: '/vitereact-movies/series', current: false },
         { name: 'Enemies', href: '#', current: false },
         { name: 'Netflix', href: '#', current: false },
       ]
